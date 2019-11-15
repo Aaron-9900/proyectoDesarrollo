@@ -231,8 +231,26 @@ footer {
 .galeria img {
   margin-top: 15px;
   transition: 0.5s;
+  width: 85%;
+  display: block;
+  margin: auto;
 }
-
+.comprar-btn {
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  bottom: 20px;
+}
+.product-info {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.product-container {
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 .galeria img:hover {
   opacity: 0.5;
 }
@@ -273,9 +291,11 @@ footer {
   display: block;
   width: 70%;
 }
-
+.review-star {
+  color: #eba139;
+}
 #galeria img {
-  width: 100%;
+  width: 85%;
 }
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
