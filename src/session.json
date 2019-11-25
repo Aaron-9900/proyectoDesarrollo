@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "IphoneX",
+      "vendors": [
+        {
+          "name": "Apple",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Fnac",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/iphonex.png",
+      "price": "725$"
+    },
+    {
+      "id": 2,
+      "name": "Proyector",
+      "vendors": [
+        {
+          "name": "Xiaomi",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Mediamarket",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/proyector2.png",
+      "price": "55$"
+    },
+    {
+      "id": 3,
+      "name": "Proyector",
+      "vendors": [
+        {
+          "name": "Xiaomi",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Mediamarket",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/proyector.png",
+      "price": "55$"
+    },
+    {
+      "id": 4,
+      "name": "Proyector",
+      "vendors": [
+        {
+          "name": "Xiaomi",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Mediamarket",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/proyector3.png",
+      "price": "55$"
+    },
+    {
+      "id": 5,
+      "name": "Cascos",
+      "vendors": [
+        {
+          "name": "Xiaomi",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Mediamarket",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/cascos.png",
+      "price": "55$"
+    },
+    {
+      "id": 6,
+      "name": "Proyector",
+      "vendors": [
+        {
+          "name": "Xiaomi",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Mediamarket",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/cascos2.png",
+      "price": "55$"
+    },
+    {
+      "id": 7,
+      "name": "Proyector",
+      "vendors": [
+        {
+          "name": "Xiaomi",
+          "desc": "Vendedor bien valorado"
+        },
+        {
+          "name": "Mediamarket",
+          "desc": "Vendedor bien valorado"
+        }
+      ],
+      "imgUrl": "./src/images/shopImages/cascos 3.png",
+      "price": "55$"
+    }
+  ]
+}

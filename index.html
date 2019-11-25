@@ -35,58 +35,13 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./js/cookies.js"></script>
   </head>
 
   <body>
-    <script>
-      AOS.init();
-    </script>
-
-    <nav
-      class="navbar navbar-expand-md bg-custom navbar-custom sticky-top"
-      id="nav"
-    >
-      <div
-        class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
-      >
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./comprar.html">Comprar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cuidado.html">Cuidado</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#">Inicio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target=".dual-collapse2"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./socios.html">Socios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="getNav"></div>
     <div id="demo" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -100,20 +55,20 @@
         <div class="carousel-item active">
           <img src="./src/images/AlpacaCarousel.jpg" alt="Alpaca" />
           <div class="carousel-caption">
-            <h1>Centro Informativo de Alpacas de Perú</h1>
+            <h1>Sell Solutions</h1>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./src/images/Alpaca1.jpg" alt="Alpaca" />
           <div class="carousel-caption">
-            <h1>Eventos informativos</h1>
-            <p>Somos el primer centro en informacion sobre alpacas</p>
+            <h1>La tienda online mas segura</h1>
+            <p>Somos la primera tienda en atención al cliente</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./src/images/AlpacaCarousel3.jpg" alt="Alpaca" />
           <div class="carousel-caption">
-            <h1>¿Tu alpaca tiene algún problema?</h1>
+            <h1>¿Tienes alguna necesidad y no sabes como satisfacerla?</h1>
             <p>
               ¡Contactános!
             </p>
@@ -134,10 +89,11 @@
       <div class="row">
         <div class="col-md-12" style="margin-top:40px">
           <p>
-            Aqui podras encontrar mucha informacion sobre alpacas.
-            Independientemente de tu edad o tu estado, las alpacas son muy buena
-            compañía. Cualquier duda o consulta puede ser enviada en la seccion
-            de contacto. No dudes en visitarnos por cualquier cuestion!
+            Aqui podras encontrar al personal mas cualificado en atención al
+            cliente. Independientemente de tu edad o tus preferencias, tenemos
+            productos para todos los públicos e intereses. Cualquier duda o
+            consulta puede ser enviada en la seccion de contacto. No dudes en
+            visitarnos por cualquier cuestion!
           </p>
         </div>
       </div>
@@ -149,27 +105,20 @@
     <div class="proyects container-fluid">
       <div class="row">
         <div class="col-md-7 proyect">
-          <div
-            data-aos="fade-right"
-            data-aos-offset="100"
-            data-aos-duration="500"
-          >
+          <div>
             <a href="#">
               <img class="img-fluid" src="./src/images/inicio1.jpg" />
             </a>
           </div>
         </div>
         <div class="col-md-5 proyect">
-          <div
-            data-aos="flip-right"
-            data-aos-duration="1000"
-            data-aos-offset="100"
-          >
-            <h3>Dietas</h3>
+          <div>
+            <h3>Subscripcion</h3>
             <p>
-              Las alpacas tienen una dieta muy sencilla. Sin embargo, es
-              importante que tengan una alimentación balanceada para que estén
-              realmente sanas.
+              Con nuestro innovador modelo de negocio, podrás acceder a los
+              mejores precios por tan solo 40$ al año. Si eres un cliente nuevo,
+              te regalamos tres meses y podrás acceder a precios que son hasta
+              un 60% más bajos que la competencia.
             </p>
             <a href="./cuidado.html" class="btn btn-primary">Ver más</a>
           </div>
@@ -182,29 +131,20 @@
       <!-- Project Two -->
       <div class="row row-left" style="margin-top: 12px;">
         <div class="col-md-5 proyect">
-          <div
-            data-aos="flip-left"
-            data-aos-duration="1000"
-            data-aos-offset="100"
-          >
-            <h3>¡Compra una alpaca!</h3>
+          <div>
+            <h3>Seleccionamos por ti</h3>
             <p>
-              Te ofrecemos las mayores ventajas a la hora de comprar alpacas.
-              Antes de entregarlas, nuestras alpacas pasan por gran cantidad de
-              revisiones. Además, te ofrecemos veterinaría gratuita durante dos
-              años para tu alpaca.
+              ¿Cansado de tener que pasar horas para decidir qué comprar? No te
+              preocupes, en nuestra tienda solamente están los mejores
+              proveedores, de esa manera tu no te tienes que preocupar por
+              absolutamente nada. Pincha aquí para saber con quienes trabajamos.
             </p>
             <a href="./compra.html" class="btn btn-primary">Ver más</a>
           </div>
         </div>
 
         <div class="col-md-7 proyect">
-          <div
-            data-aos="fade-left"
-            data-aos-offset="100"
-            data-aos-duration="500"
-            class="right-col"
-          >
+          <div class="right-col">
             <a href="#">
               <img class="img-fluid" src="./src/images/inicio2.jpg" />
             </a>
@@ -218,22 +158,14 @@
       <!-- Project Three -->
       <div class="row">
         <div class="col-md-7 proyect">
-          <div
-            data-aos="fade-right"
-            data-aos-offset="100"
-            data-aos-duration="500"
-          >
+          <div>
             <a href="./cuidado.html">
               <img class="img-fluid" src="./src/images/inicio3.jpg" />
             </a>
           </div>
         </div>
         <div class="col-md-5 proyect">
-          <div
-            data-aos="flip-right"
-            data-aos-duration="1000"
-            data-aos-offset="100"
-          >
+          <div>
             <h3>Alpaca de Mascota</h3>
             <p>
               as alpacas son un fantástico animal de campo, pero también del
@@ -266,42 +198,9 @@
       </div>
     </div>
     <!-- /.row -->
-    <footer>
-      <div class="container-fluid">
-        <div class="row" style="text-align:center;">
-          <div class="col-md-4">
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a class="tw-ic">
-              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a class="ins-ic">
-              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-        </div>
-        <div class="text-center py-3">
-          Llámanos!
-          <i class="fas fa-phone"></i>
-          <span id="phoneNumber">+34 699682030</span>
-        </div>
-        <div class="footer-copyright text-center py-3">
-          © 2018 Copyright:
-          <a href="#"> AlpacaLove.com</a>
-        </div>
-      </div>
-    </footer>
-
+    <footer></footer>
+    <script src="js/components/nav.js"></script>
+    <script src="js/components/footer.js"></script>
     <script src="./js/nav.js"></script>
   </body>
 </html>

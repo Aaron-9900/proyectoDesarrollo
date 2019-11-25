@@ -29,6 +29,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -39,6 +40,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/components/productList.js"></script>
+    <script src="js/productController.js"></script>
   </head>
 
   <body>
@@ -46,55 +49,15 @@
       AOS.init();
     </script>
 
-    <nav
-      class="navbar navbar-expand-md bg-custom navbar-custom sticky-top"
-      id="nav"
-    >
-      <div
-        class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
-      >
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./comprar.html">Comprar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cuidado.html">Cuidado</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="./index.html">Inicio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target=".dual-collapse2"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./socios.html">Socios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
+    <div id="getNav"></div>
     <div class="container aviso-tienda">
       <div class="row">
         <div class="col-md-12" style="margin-top:40px">
           <p>
-            Bienvenido a nuestra página para comprar alpacas! Por razones
-            legales, no puedes comprar directamente desde la web, pero todas las
-            alpacas que aparecen a continuacion estan en stock. Contactanos para
-            comprar la que quieras!
+            Bienvenido a nuestra página de compra - venta. Desde Sell Solutions
+            les aseguramos la mayor transaparencia posible. Todas sus compras
+            quedan registradas y tenemos mecanismos de apelacion del cliente.
+            Siéntase seguro al comprar aquí.
           </p>
         </div>
       </div>
@@ -103,118 +66,8 @@
     <hr />
 
     <div class="container-fluid galeria" id="galeria">
+      <div class="row" id="productRoot"></div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca1.jpg" />
-            <div class="product-info">
-              Precio: 20$/kg <br />
-              Reviews (5):
-              <i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i>
-              <i class="fas fa-star"></i>
-              <a href="./cuidado.html" class="btn btn-primary comprar-btn"
-                >Comprar ya</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca1.jpg" />
-            <div class="product-info">
-              Precio: 20$/kg <br />
-              Reviews (5):
-              <i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i>
-              <a href="./cuidado.html" class="btn btn-primary comprar-btn"
-                >Comprar ya</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca1.jpg" />
-            <div class="product-info">
-              Precio: 20$/kg <br />
-              Reviews (5):
-              <i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i>
-              <a href="./cuidado.html" class="btn btn-primary comprar-btn"
-                >Comprar ya</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca1.jpg" />
-            <div class="product-info">
-              Precio: 20$/kg <br />
-              Reviews (5):
-              <i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i>
-              <a href="./cuidado.html" class="btn btn-primary comprar-btn"
-                >Comprar ya</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca1.jpg" />
-            <div class="product-info">
-              Precio: 20$/kg <br />
-              Reviews (5):
-              <i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i>
-              <a href="./cuidado.html" class="btn btn-primary comprar-btn"
-                >Comprar ya</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca1.jpg" />
-            <div class="product-info">
-              Precio: 20$/kg <br />
-              Reviews (5):
-              <i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i
-              ><i class="fas fa-star review-star"></i>
-              <a href="./cuidado.html" class="btn btn-primary comprar-btn"
-                >Comprar ya</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca7.jpg" />
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="product-container">
-            <img class="img-fluid" src="./src/images/shopImages/alpaca8.jpg" />
-          </div>
-        </div>
         <div class="col-md-4"></div>
       </div>
     </div>
@@ -228,42 +81,9 @@
     </div>
 
     <hr />
-    <footer>
-      <div class="container-fluid">
-        <div class="row" style="text-align:center;">
-          <div class="col-md-4">
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a class="tw-ic">
-              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a class="ins-ic">
-              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-        </div>
-        <div class="text-center py-3">
-          Llámanos!
-          <i class="fas fa-phone"></i>
-          <span id="phoneNumber">+34 699682030</span>
-        </div>
-        <div class="footer-copyright text-center py-3">
-          © 2018 Copyright:
-          <a href="#"> AlpacaLove.com</a>
-        </div>
-      </div>
-    </footer>
-
+    <footer></footer>
+    <script src="js/components/nav.js"></script>
+    <script src="js/components/footer.js"></script>
     <script src="./js/shop.js"></script>
   </body>
 </html>

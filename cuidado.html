@@ -42,46 +42,7 @@
     <script>
       AOS.init();
     </script>
-    <nav
-      class="navbar navbar-expand-md bg-custom navbar-custom sticky-top"
-      id="nav"
-    >
-      <div
-        class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
-      >
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./comprar.html">Comprar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cuidado.html">Cuidado</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="./index.html">Inicio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target=".dual-collapse2"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Socios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="getNav"></div>
 
     <div class="cuidado container-fluid">
       <!-- Project Two -->
@@ -291,41 +252,11 @@
         </div>
       </div>
     </div>
-    <footer>
-      <div class="container-fluid">
-        <div class="row" style="text-align:center;">
-          <div class="col-md-4">
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
+    <footer></footer>
+    <script src="js/components/nav.js"></script>
 
-          <div class="col-md-4">
-            <a class="tw-ic">
-              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
+    <script src="js/components/footer.js"></script>
 
-          <div class="col-md-4">
-            <a class="ins-ic">
-              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-              </i>
-            </a>
-          </div>
-        </div>
-        <div class="text-center py-3">
-          Llámanos!
-          <i class="fas fa-phone"></i>
-          <span id="phoneNumber">+34 699682030</span>
-        </div>
-        <div class="footer-copyright text-center py-3">
-          © 2018 Copyright:
-          <a href="#"> AlpacaLove.com</a>
-        </div>
-      </div>
-    </footer>
     <!-- Footer -->
   </body>
 </html>

@@ -258,6 +258,9 @@ footer {
   background-color: rgba(175, 175, 175, 0.8);
 }
 
+.produc-description {
+}
+
 /* Style the Image Used to Trigger the Modal */
 
 #myImg {
@@ -308,7 +311,25 @@ footer {
   padding: 10px 0;
   height: 150px;
 }
-
+#productImg {
+  max-width: 100%;
+}
+.product-description {
+  margin-top: 20px;
+}
+.align-text-center {
+  text-align: center;
+}
+.price {
+  color: rgb(41, 99, 153);
+  margin-top: 20px;
+}
+.button-group-card {
+  margin-top: 20px;
+}
+.product-card {
+  margin-top: 20px;
+}
 /* Add Animation - Zoom in the Modal */
 .modal-content,
 #caption {
